@@ -1,0 +1,78 @@
+/*
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@200..700&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');*/
+
+@import url('fonts.css');
+
+@import url("reset.css");
+
+.header {
+	font-family: Pacifico, sans-serif;
+	font-size: 16px;
+	font-style: italic;
+	text-shadow: 15px 5px 25px;
+	padding: 10px;
+}
+
+.title {
+	font-family: Pacifico, sans-serif;
+	font-size: 42px;
+	text-decoration: line-through;
+	text-decoration-style: double;
+	text-decoration-color: green;
+
+}
+
+.page {
+	font-family: Lobster, fantasy;
+	font-weight: 400;
+	text-transform: capitalize;
+	line-height: 25.0px;
+	letter-spacing: 0.10px;
+	word-spacing: 3px;
+}
+
+.sub-title {
+	font-size: 30px;
+	font-weight: 700;
+	color: red;
+	text-transform: uppercase;
+
+}
+
+.list {
+	font-size: 20px;
+	color: gold;
+	text-decoration: overline;
+	text-shadow: 5px 5px 10px rebeccapurple
+}
+
+.list-link>li {
+	font-size: 20px;
+	color: black;
+	text-decoration: overline;
+}
+.list-link>li:hover {
+	font-size: 22px;
+	color: lightblue;
+	text-decoration: overline;
+}
+
+.home-work {
+	font-family: ProximaNova, sans-serif;
+	font-weight: 400;
+}
+
+.hw1-title {
+	font-weight: 600;
+	font-size: 30px;
+}
+
+.hw2-title {
+	font-weight: 600;
+	font-size: 26px;
+}
+
+.hw-list {
+	text-align: left;
+}
